@@ -1,0 +1,25 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+/* CSS USED IN HEADER */
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+ul, li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    padding: 15px;
+  }
+figcaption {
+  position: absolute;
+}
