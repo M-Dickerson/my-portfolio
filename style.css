@@ -20,17 +20,25 @@ ul, li {
 a {
     text-decoration: none;
     padding: 15px;
+    font-size: 20px;
 }
-/*CSS USED IN BODY*/
-body {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+/*CSS USED IN IMAGE*/
+.hero-image {
+  background-image: url("./assets/Oum8QYNImgur.png");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.bottom-left {
-  position: absolute;
-  font-size: 20px;
-  bottom: 8px;
-  left: 16px;
-  color: aliceblue;
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+}
+/*CSS USED IN SECTIONS*/
+h2, p {
+  font-size:x-large;
 }
