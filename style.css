@@ -1,9 +1,10 @@
 /* Universal Selector */
 * {
     margin:0;
-    padding:0;  
+    padding:0;
+    flex-wrap: wrap;  
   }
-/* CSS USED IN HEADER */
+/*CSS USED IN HEADER*/
 header {
     display: flex;
     height: 100px;
@@ -19,7 +20,17 @@ ul, li {
 a {
     text-decoration: none;
     padding: 15px;
-  }
-figcaption {
+}
+/*CSS USED IN BODY*/
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.bottom-left {
   position: absolute;
+  font-size: 20px;
+  bottom: 8px;
+  left: 16px;
+  color: aliceblue;
 }
