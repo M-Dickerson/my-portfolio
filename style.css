@@ -48,11 +48,10 @@ h1 {
 }
 /*CSS USED IN SECTIONS*/
 .about-me h2, .wor-k h2, .contact-me h2 {
-  text-align: left;
-  text-indent: 7%;
-  border-right: 10px solid #111111;
+  text-align: right;
+  text-indent: 30%;
+  border-right: 5px solid #111111;
   height: 4%;
-}
-p {
-  text-indent: 8% each-line;
+  width: 15%;
+  padding: 10px;
 }
