@@ -47,19 +47,3 @@ h1 {
   background-color: #831005;
 }
 /*CSS USED IN SECTIONS*/
-h2 {
-  font-size: 40px;
-  display: inline-block;
-  align-content: flex-start;
-  margin-left: 5%;
-}
-contact-me {
-  margin-left: 16%;
-  display: inline-block;
-  align-content: flex-end;
-}
-about-me, p {
-  margin-left: 16%;
-  display: inline-block;
-  align-content: flex-end;
-}
