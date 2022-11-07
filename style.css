@@ -1,9 +1,10 @@
 /* Universal Selector */
 * {
     margin:0;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-/*CSS USED IN HEADER*/
+/*HEADER CSS*/
 header {
     display: flex;
     width: 100%;
@@ -19,18 +20,17 @@ header a {
     color: #CBC3BE;
     padding: 10px 20px 0 0;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 header h1 {
+  flex-wrap: wrap;
   background-color: #CBC3BE;
-  font-size: 50px;
+  font-size: 60px;
   margin: 10px 0;
   padding: 0px 20px 0 50px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   color: #831005;
 }
-/*CSS USED IN HERO IMAGE*/
+/*HERO IMAGE AND TEXT CSS*/
 .hero-image {
   background-image: url("./assets/Oum8QYNImgur.png");
   width: 100%;
@@ -46,69 +46,54 @@ header h1 {
   color: rgb(255, 255, 255);
   background-color: #831005;
 }
-h3 {
-  text-align: center;
+h2 {
+  background-color: #831005;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/*CSS USED IN SECTIONS*/
-.about-me h1, .wor-k h1, .contact-me h1 {
-  display: inline-block;
-  text-align: right;
+/*MAIN CSS*/
+.contact-me h1, .about-me h1 {
+  display: inline-flex;
+  text-align: end;
   text-indent: 30%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-right: 1%;
   border-right: 1rem solid #831005;
-  padding-right: 2%;
 }
-.responsive {
-  display: flex;
-  margin-left: 20%;
-  max-width: 30%;
+.work-examples h1 {
+  display: inline-flex;
+  text-indent: 3em;
+  text-align: match-parent;
+  padding-right: 1%;
+  border-right: 1rem solid #831005;
 }
 .about-me p {
-  display: inline;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-indent: 5em each-line;
+    display: inline;
 }
 .contact-me ul {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  display: inline-block;
+  display: flex;
+  gap: 1rem;
+  display: inline-flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
 }
-/*MOBILE*/
-@media screen and (max-width:700px) {
-  main, {
-    .header nav
-    flex-direction: column;
-  }
-  /*MY NAME*/
-  header h1 {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    font-size: 30px;
-  }
-  /*HEADER*/
-  header nav {
-    text-align: center;
-    width: 100%;
-    padding: 1%;
-  }
-  header {
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-  /*HERO IMAGE AND TEXT*/
-  .hero-image {
-    width: 100%;
-    height: 150px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  /*BODY*/
-  p {
-    font-size: 10px;
-  }
+/*IMAGES IN WORK SECTION*/
+.work-examples a {
+  max-width: 900px;
+  display:inline-block;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-1 {
+  width: 800px;
+  height: 400px;
+  padding: 1%;
+  margin-left: 20%;
+  display: inline;
+
+}
+.image-2 {
+  width: 450px;
+  height: 130px;
+}
