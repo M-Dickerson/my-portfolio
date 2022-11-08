@@ -49,51 +49,111 @@ header h1 {
 h2 {
   background-color: #831005;
   color: white;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
 }
 /*MAIN CSS*/
-.contact-me h1, .about-me h1 {
-  display: inline-flex;
-  text-align: end;
+  .about-me h1, .contact-me h1, .work-examples h1 {
+  flex: 0 0 20%;
+  font-size:3vw;
+  text-align: right;
   text-indent: 30%;
   padding-right: 1%;
   border-right: 1rem solid #831005;
 }
-.work-examples h1 {
-  display: inline-flex;
-  text-indent: 3em;
-  text-align: match-parent;
-  padding-right: 1%;
-  border-right: 1rem solid #831005;
+.about-me, .contact-me, .work-examples {
+  display: flex;
+  flex-wrap: wrap;
 }
 .about-me p {
-    display: inline;
+    flex: 0 0 70%;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: large;
 }
 .contact-me ul {
   display: flex;
-  gap: 1rem;
-  display: inline-flex;
-  list-style: none;
-  justify-content: center;
+  flex: 70%;
+  justify-content: space-evenly;
   align-items: center;
+  list-style: none;
   font-size: x-large;
 }
-/*IMAGES IN WORK SECTION*/
-.work-examples a {
-  max-width: 900px;
-  display:inline-block;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
+.contact-me a {
+  color: #831005;
+  text-decoration: underline #000;
 }
+/*IMAGES IN WORK SECTION*/
 .image-1 {
   width: 800px;
   height: 400px;
   padding: 1%;
-  margin-left: 20%;
-  display: inline;
-
+  flex: 0 0 50%;
 }
 .image-2 {
-  width: 450px;
+  width: 400px;
   height: 130px;
+  padding: 1%;
+  flex: 0 0 20%;
+  margin-left: 21.5%;
+}
+/* MEDIA CONTROLS */
+/*HEADER*/
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  header h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+  }
+  header ul {
+    align-items: center;
+  }
+/*HERO IMAGE AND TEXT*/
+  .hero-image {
+    width: 100%;
+    height: 150px;
+  }
+/*BODY*/
+  main {
+    margin: 5%;
+  }
+  .about-me h1, .contact-me h1, .work-examples h1 {
+    width: 100%;
+    font-size:5vw;
+    text-align: left;
+    border: none;
+    flex: none;
+    text-indent: 0;
+    padding: 0%;
+  }
+  .about-me p {
+    text-align: justify;
+    flex: 1 1 0;
+    padding: 0;
+  }
+  .contact-me ul {
+    list-style: none;
+    width: 100%;
+    flex: none;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    font-size: medium;
+  }
+  .image-1, .image-2 {
+    width: 100%;
+    height: 10%;
+    margin: 0%;
+    padding: 0;
+  }
+
 }
