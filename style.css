@@ -17,14 +17,14 @@ header li {
 }
 header a {
     text-decoration:underline;
-    color: #CBC3BE;
+    color: #fff;
     padding: 10px 20px 0 0;
     font-size: 20px;
     font-weight: bold;
 }
 header h1 {
   flex-wrap: wrap;
-  background-color: #CBC3BE;
+  background-color: #fff;
   font-size: 60px;
   margin: 10px 0;
   padding: 0px 20px 0 50px;
@@ -52,6 +52,10 @@ h2 {
   width: 10%;
   padding: 10px;
   text-align: center;
+  font-size: 2vw;
+  position: relative;
+  left: 50%;
+  top: 20%;
 }
 /*MAIN CSS*/
   .about-me h1, .contact-me h1, .work-examples h1 {
@@ -61,6 +65,7 @@ h2 {
   text-indent: 30%;
   padding-right: 1%;
   border-right: 1rem solid #831005;
+  color: #831005;
 }
 .about-me, .contact-me, .work-examples {
   display: flex;
@@ -71,6 +76,7 @@ h2 {
     padding-left: 1%;
     padding-top: 1%;
     font-size: large;
+    color: #831005;
 }
 .contact-me ul {
   display: flex;
@@ -88,15 +94,16 @@ h2 {
 .image-1 {
   width: 800px;
   height: 400px;
-  padding: 1%;
   flex: 0 0 50%;
+  margin-left: 1%;
+  border: 5px solid #831005;
 }
 .image-2 {
   width: 400px;
   height: 130px;
-  padding: 1%;
   flex: 0 0 20%;
-  margin-left: 21.5%;
+  margin: 20px 10% 0 23%;
+  border: 5px solid #831005;
 }
 /* MEDIA CONTROLS */
 /*HEADER*/
@@ -121,23 +128,34 @@ h2 {
     width: 100%;
     height: 150px;
   }
+  h2 {
+    left: 38%;
+    top: 15%;
+    width: 22%;
+    font-size: large;
+  }
 /*BODY*/
   main {
     margin: 5%;
   }
   .about-me h1, .contact-me h1, .work-examples h1 {
     width: 100%;
-    font-size:5vw;
+    font-size:6vw;
     text-align: left;
     border: none;
     flex: none;
     text-indent: 0;
     padding: 0%;
+    border-bottom: 5px solid #831005;
+    padding-bottom: 8px;
+  }
+  .about-me, .contact-me, .work-examples {
   }
   .about-me p {
     text-align: justify;
     flex: 1 1 0;
     padding: 0;
+    padding: 5% 0% 15% 0;
   }
   .contact-me ul {
     list-style: none;
@@ -148,12 +166,17 @@ h2 {
     flex-wrap: nowrap;
     align-items: flex-start;
     font-size: medium;
+    padding: 5% 0% 10% 0;
   }
   .image-1, .image-2 {
-    width: 100%;
+    width: 99%;
     height: 10%;
     margin: 0%;
     padding: 0;
+    border: 5px solid #831005;
+    margin-bottom: 5%;
   }
-
+  .image-1 {
+    margin-top: 8%;
+  }
 }
