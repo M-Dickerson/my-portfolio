@@ -1,4 +1,4 @@
-/* Universal Selector */
+/*UNIVERSAL CSS*/
 * {
     margin:0;
     flex-wrap: wrap;
@@ -57,7 +57,7 @@ h2 {
   left: 50%;
   top: 20%;
 }
-/*MAIN CSS*/
+/*MAIN HEADING CSS*/
   .about-me h1, .contact-me h1, .work-examples h1 {
   flex: 0 0 20%;
   font-size:3vw;
@@ -78,6 +78,7 @@ h2 {
     font-size: large;
     color: #831005;
 }
+/*CONTACT ME CSS*/
 .contact-me ul {
   display: flex;
   flex: 70%;
@@ -90,7 +91,7 @@ h2 {
   color: #831005;
   text-decoration: underline #000;
 }
-/*IMAGES IN WORK SECTION*/
+/*IMAGES IN WORK SECTION CSS*/
 .image-1 {
   width: 800px;
   height: 400px;
@@ -98,15 +99,22 @@ h2 {
   margin-left: 1%;
   border: 5px solid #831005;
 }
-.image-2 {
+.image-2, .image-4 {
   width: 400px;
   height: 130px;
   flex: 0 0 20%;
-  margin: 20px 10% 0 23%;
+  margin: 20px 0 0 22.5%;
   border: 5px solid #831005;
 }
-/* MEDIA CONTROLS */
-/*HEADER*/
+.image-3, .image-5 {
+  width: 400px;
+  height: 130px;
+  flex: 0 0 20%;
+  margin: 20px 0 0 10%;
+  border: 5px solid #831005;
+}
+/* MEDIA CONTROLS MEDIA CONTROLS MEDIA CONTROLLS MEDIA CONTROLLS */
+/*HEADER MEDIA*/
 @media (max-width: 500px) {
   header {
     width: 100%;
@@ -123,7 +131,7 @@ h2 {
   header ul {
     align-items: center;
   }
-/*HERO IMAGE AND TEXT*/
+/*HERO IMAGE AND TEXT MEDIA*/
   .hero-image {
     width: 100%;
     height: 150px;
@@ -134,7 +142,7 @@ h2 {
     width: 22%;
     font-size: large;
   }
-/*BODY*/
+/*MAIN HEADING MEDIA*/
   main {
     margin: 5%;
   }
@@ -149,14 +157,13 @@ h2 {
     border-bottom: 5px solid #831005;
     padding-bottom: 8px;
   }
-  .about-me, .contact-me, .work-examples {
-  }
   .about-me p {
     text-align: justify;
     flex: 1 1 0;
     padding: 0;
     padding: 5% 0% 15% 0;
   }
+/*CONTACT ME MEDIA*/
   .contact-me ul {
     list-style: none;
     width: 100%;
@@ -167,8 +174,9 @@ h2 {
     align-items: flex-start;
     font-size: medium;
     padding: 5% 0% 10% 0;
+/*WORK IMAGE SECTION MEDIA*/
   }
-  .image-1, .image-2 {
+  .image-1, .image-4, .image-2, .image-3, .image-5{
     width: 99%;
     height: 10%;
     margin: 0%;
