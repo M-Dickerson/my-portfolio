@@ -5,7 +5,7 @@ The motivation and purpose of this project was to create a base for a usable por
 
 ## Usage
 
-Link to deployed application: []()
+Link to deployed application: [My Portfolio](https://m-dickerson.github.io/my-portfolio/)
 
 ![Screenshot of my portfolio site](./assets/portfolio-screenshot.png)
 ![Screenshot of my portfolio site](./assets/mobile-portfolio-screenshot.png)
