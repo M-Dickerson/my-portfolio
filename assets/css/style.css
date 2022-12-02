@@ -1,0 +1,273 @@
+/* UNIVERSAL CSS */
+* {
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+  }
+/* HEADER */
+header {
+    display: flex;
+    width: 100%;
+    background-color: #831005;
+    justify-content: space-between;
+    align-items: center;
+}
+header li {
+  display: inline-block;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav {
+  text-align: right;
+}
+header h1 {
+  flex-wrap: wrap;
+  background-color: #fff;
+  font-size: 60px;
+  margin: 10px 0;
+  padding: 0px 20px 0 50px;
+  color: #831005;
+}
+/* HERO IMAGE AND TEXT */
+.hero-image {
+  background-image: url("./assets/images/Oum8QYNImgur.png");
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text {
+  text-align: end;
+  position: relative;
+  top: 60%;
+  color: rgb(255, 255, 255);
+  background-color: #831005;
+}
+h2 {
+  background-color: #831005;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  font-size: 2vw;
+  position: relative;
+  left: 50%;
+  top: 30%;
+}
+/* MAIN HEADING */
+  .about-me h1, .contact-me h1, .work-examples h1 {
+  width: 20%;
+  font-size:3vw;
+  text-align: right;
+  text-indent: 34%;
+  padding-right: 1%;
+  border-right: 5px solid #831005;
+  color: #831005;
+}
+.about-me, .contact-me, .work-examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 0;
+}
+.about-me p {
+    flex: 0 0 54%;
+    padding-left: 1.5%;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    color: #831005;
+    float: left;
+}
+.me {
+  display: block;
+  width: 10%;
+  padding-left: 5px;
+  margin: 1.5% 0;
+  float: right;
+}
+/* CONTACT ME */
+.contact-me ul {
+  display: flex;
+  flex: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0%;
+  list-style: none;
+  font-size: x-large;
+}
+.contact-me a {
+  text-decoration: none;
+  color: #831005;
+  font-size: 30px;
+}
+/* IMAGES IN WORK SECTION */
+.main-content {
+  width: 80%;
+  padding-left: 20px;
+  flex: 0 0 70%;
+}
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-1 {
+  width: 92%!important;
+}
+/* SMALLER IMAGES */
+.image-2 {
+  width: 45%;
+  margin: 10px;
+  flex-wrap: wrap;
+  border: 8px solid #831005;
+}
+.image-2 img {
+  width: 100%;
+}
+.image-2 h3 {
+  padding: 20px;
+  font-size: x-large;
+  width: fit-content;
+  position: absolute;
+  color: #fff;
+  background: #831005;
+}
+/* MEDIA CONTROLS MEDIA CONTROLS MEDIA CONTROLLS MEDIA CONTROLLS MEDIA CONTROLLS MEDIA CONTROLLS*/
+/* MEDIA FOR TABLET SCREENS MEDIA FOR TABLET SCREENS MEDIA FOR TABLET SCREENS*/
+@media (max-width:2000px){
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  header a {
+    font-size: 2.5vh;
+  }
+  nav {
+    padding: 10px;
+  }
+  /* ABOUT ME */
+  .about-me p {
+    text-align: justify;
+    flex: 0 0 45%;
+    font-size: 2vh;
+  }
+  .me {
+    width: 20%;
+  }
+  /* HERO IMAGE AND TEXT */
+  h2 {
+    left: 47%;
+    width: fit-content;
+    font-size: large;
+  }
+  /* CONTACT */
+  .contact-me ul {
+    flex-direction: column;
+  }
+  .contact-me a {
+    font-size: 2vh;
+  }
+  /* WORK IMAGES */
+  .image-2 {
+    width: 43%;
+  }
+  .work-examples h3 {
+    font-size: 1.5vh;
+    padding: 1vh;
+  }
+}
+/* MEDIA FOR PHONES MEDIA FOR PHONES MEDIA FOR PHONES*/
+/* HEADER */
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  header h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+  }
+  header ul {
+    align-items: center;
+  }
+  nav {
+    text-align: center;
+    padding: 10px;
+  }
+  header a {
+    font-size: 2.5vh;
+  }
+/* HERO IMAGE AND TEXT */
+  .hero-image {
+    width: 100%;
+    height: 150px;
+  }
+  h2 {
+    left: 38%;
+    top: 15%;
+    width: fit-content;
+    font-size: large;
+  }
+/* MAIN HEADING */
+  main {
+    margin: 5%;
+  }
+  .about-me h1, .contact-me h1, .work-examples h1 {
+    width: 100%;
+    font-size:6vw;
+    text-align: left;
+    border: none;
+    text-indent: 0;
+    padding: 0 0 8px 0;
+    border-bottom: 5px solid #831005;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .about-me p {
+    text-align: justify;
+    flex: 1 1 0;
+    font-size: 2.5vh;
+    padding: 5% 0% 10% 0;
+  }
+  .me {
+    width: 100%;
+    padding: 0%;
+  }
+/* CONTACT ME */
+  .contact-me ul {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.5vh;
+    line-height: 1.6;
+  }
+  .contact-me a {
+    font-size: 2.5vh;
+  }
+/* WORK IMAGES */
+  .main-content {
+    flex: none;
+    padding: 0;
+    width: 100%;
+}
+  .image-2 {
+    width: 100%;
+  }
+  .work-examples h3 {
+    font-size: 1.5vh;
+    padding: 1.5vh;
+  }
+}

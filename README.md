@@ -7,11 +7,11 @@ The motivation and purpose of this project was to create a base for a usable por
 
 Link to deployed application: [My Portfolio](https://m-dickerson.github.io/my-portfolio/)
 
-![Screenshot of my portfolio site](./assets/portfolio-screenshot.png)
-![Screenshot of my portfolio site](./assets/mobile-portfolio-screenshot.png)
+![Desktop screenshot of my portfolio](./assets/desktop.png)
+![Mobile screenshot of my portfolio](./assets/mobile.png)
 
 ## Credits
-[Image used in work example](https://unsplash.com/@imongination)
+[Image used in work example](https://unsplash.com/photos/KOKxOB8550Q)
 
 [Image used in hero image](https://www.dreamstime.com/abstract-heart-pattern-background-paper-red-hearts-dots-isolated-white-valentines-day-vector-illustration-image135972853)
 
