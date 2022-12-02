@@ -7,8 +7,8 @@ The motivation and purpose of this project was to create a base for a usable por
 
 Link to deployed application: [My Portfolio](https://m-dickerson.github.io/my-portfolio/)
 
-![Desktop screenshot of my portfolio](./assets/desktop.png)
-![Mobile screenshot of my portfolio](./assets/mobile.png)
+![Desktop screenshot of my portfolio](./assets/images/desktop.png)
+![Mobile screenshot of my portfolio](./assets/images/mobile.png)
 
 ## Credits
 [Image used in work example](https://unsplash.com/photos/KOKxOB8550Q)

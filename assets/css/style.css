@@ -34,7 +34,7 @@ header h1 {
 }
 /* HERO IMAGE AND TEXT */
 .hero-image {
-  background-image: url("./assets/images/Oum8QYNImgur.png");
+  background-image: url("/assets/images/desktop.png");
   width: 100%;
   height: 250px;
   background-position: center;
